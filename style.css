@@ -30,6 +30,10 @@ body { margin: 0; font-size: 0.8em; line-height: 1.4;
 	background-color: black; color: white; }
 	
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+	  p { 
+  color: #eeeee9;
+}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
