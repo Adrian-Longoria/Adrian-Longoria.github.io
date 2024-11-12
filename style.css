@@ -8,10 +8,6 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 
-@media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
   
 
 /* =============================================================================
@@ -26,13 +22,9 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 120%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 0.8em; line-height: 1.4;
-	background-color: black; color: white; }
+body { margin: 0; font-size: 0.8em; line-height: 1.4;}
 	
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
-	  p { 
-  color: #eeeee9;
-}
 
 
 /*
