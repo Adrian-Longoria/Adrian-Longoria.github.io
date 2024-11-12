@@ -7,16 +7,13 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-body {
-  background-color: black;
-  color: white;
-}
+
 @media screen and (prefers-color-scheme: light) {
   body {
     background-color: white;
     color: black;
-  }
-}
+  
+
 /* =============================================================================
    Base
    ========================================================================== */
@@ -29,8 +26,9 @@ body {
 
 html { font-size: 120%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 0.8em; line-height: 1.4; }
-
+body { margin: 0; font-size: 0.8em; line-height: 1.4;
+	background-color: black; color: white; }
+	
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 /*
